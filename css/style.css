@@ -1,0 +1,160 @@
+body {
+    font-family: 'roboto';
+    background-color: beige;
+    margin:0 auto;
+}
+/*headings of RR and Jaanu*/
+h1,h2,h4,h5 {
+    font-family: 'roboto';
+    color:red;
+}
+.headI {
+    color:red;
+    text-align: center;
+    position: sticky;
+    top:0;
+    font-size:40px;
+    background-color:burlywood; 
+}
+/* RR and Jaanu's h1*/
+ h1 {
+    font-size: 36px;
+    border:solid;
+    border-color: green;
+    border-width:1px 5px 2px 3px;
+    padding-bottom: 0;
+    padding-top:10px;
+    margin:30px;
+}
+ h2 {
+    font-size: 24px;
+    border:solid;
+    border-color: green;
+    border-width:1px 2px 4px 2px;
+    margin-right:30px;
+}
+/*Jaanu's h1*/
+#jaanu h1 {
+    border:solid 2px;
+    border-color:blue;
+}
+#jaanu h4 {
+    border-bottom:solid 3px;
+    border-color:blue;
+}
+table,tr,th,td {
+    border:solid;
+    border-collapse: collapse;
+    width:100px;
+}
+.newTable {
+    float:left;
+}
+.newForm {
+    border:solid grey;
+    border-radius: 9px;
+    float:right;
+    margin-right:500px;
+    background-image:linear-gradient(to left,pink,lightblue,white);
+    color:grey;
+    width:30%
+}
+input[type="button"],
+input[type="submit"],
+input[type="checkbox"] {
+    background-color:lightblue;
+    color:grey;
+    margin-top:5px;
+}
+.in_form {
+    padding:20px;
+}
+.box {
+    margin-top:5px;
+}
+.f_head {
+    text-align: center;
+    color:cornflowerblue;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="tel"],
+input[type="Email"] {
+width:100%
+}
+h1.headII {
+    position:sticky;
+    top:0;
+    background-color:lightcoral;
+    text-align:center;
+}
+.inonee {
+    position:relative;
+    border:solid;
+    border-color: blue;
+    width: 100vw;
+    height:100vh;
+    padding-bottom:100px;
+    background-image:url("../images/pexels-photo-3793689.jpeg");
+    padding-top:2px;
+    padding-left:2px;
+        }
+.inone {
+    position:absolute;
+    border:solid;
+    border-color:green;
+    border-radius:90px;
+    width:1vw;
+    height:1vh;
+    padding:50px;
+    background-image:url("../images/pexels-photo-2.jpeg");
+    background-size: cover;
+    box-shadow:0 3px 4px 0 beige;
+}
+.secondin {
+    position:absolute;
+    top:100px;
+    left:105px;
+    border:solid;
+    border-color:green;
+    border-radius:50px;
+    width:1vw;
+    height:1vh;
+    padding:50px;
+    background-image:url("../images/gettyimages-158302302-2048x2048.jpg");
+    background-size: cover;
+    box-shadow:0 3px 4px 0 beige;
+}
+.thirdin {
+    position:absolute;
+    top:100px;
+    left:106px;
+    border:solid;
+    border-color:green;
+    border-radius: 50px;
+    width:1vw;
+    height:1vh;
+    padding:50px;
+    background-image:url("../images/pexels-photo-2.jpeg");
+    background-size: cover;
+    box-shadow:0 3px 4px 0 beige;
+}
+.fourin {
+    position:absolute;
+    top:100px;
+    left:106px;
+    border:solid;
+    border-color:green;
+    width:1vw;
+    height:1vh;
+    padding:50px;
+    background-color:rgba(0,0,255,0.4);
+}
+@media only screen and (max-width:600px) {
+.inonee {
+      background-color: lightblue;
+      background-image:none;
+        }
+  }
+

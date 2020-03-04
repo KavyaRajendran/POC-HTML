@@ -1,0 +1,115 @@
+#one {
+    position:relative;
+    border:solid;
+    border-color: blue;
+    width: 99vw;
+    height:99vh; 
+}
+#one > div > div:nth-child(1) {
+    position:absolute;
+    border:solid;
+    border-color:green;
+    width: 10vw;
+    height:10vh;
+    opacity:none;
+    margin-top :10vh;
+    margin-left:10vw;
+}
+#one > div > div:nth-child(2) {
+    position:absolute;
+    border:solid;
+    border-color:green;
+    width: 10vw;
+    height:10vh;
+    margin-top:20vh;
+    margin-left:20vw;
+    z-index: 1;
+}
+#one > div > div:nth-child(3)  {
+    position:absolute;
+    border:solid;
+    border-color:yellow;
+    width: 10vw;
+    height:10vh;
+    margin-top:30vh;
+    margin-left:30vw;
+}
+#one > div > div:nth-child(4)  {
+    position:absolute;
+    border:solid;
+    border-color:yellow;
+    width: 10vw;
+    height:10vh;
+    margin-top:40vh;
+    margin-left:40vw;
+}
+#one > div > div:nth-child(5)  {
+    position:absolute;
+    border:solid;
+    border-color:yellow;
+    width: 10vw;
+    height:10vh;
+    margin-top:40vh;
+    margin-left:55vw;
+}
+#one > div > div:nth-child(6)  {
+    position:absolute;
+    border:solid;
+    border-color:yellow;
+    width: 10vw;
+    height:10vh;
+    margin-top:30vh;
+    margin-left:65vw;
+}
+#one > div > div:nth-child(7)  {
+    position:absolute;
+    border:solid;
+    border-color:green;
+    width: 10vw;
+    height:10vh;
+    margin-top:20vh;
+    margin-left:75vw;
+}
+#one > div > div:nth-child(8)  {
+    position:absolute;
+    width: 10vw;
+    height:10vh;
+    margin-top:50vh;
+    margin-left:48vw;
+    opacity:1;
+}
+#one > div > div:last-child {
+    position:absolute;
+    border:solid;
+    border-color:green;
+    width: 10vw;
+    height:10vh;
+    margin-top:10vh;
+    margin-left:85vw;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+div {
+    text-align: center;
+    vertical-align:middle;
+    line-height:5vh;
+}
+@media only screen and (max-width:800px) {
+    div {
+        text-align: center;
+        vertical-align:middle;
+        line-height:1vh;
+    }
+}
+div:hover {
+    background-color:lightsteelblue;
+    
+}
+div.bg {
+    background-color:rgba(199,0,255,0.1); 
+    
+}
